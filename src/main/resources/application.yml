@@ -1,0 +1,18 @@
+spring:
+    application.name: file-storage-api
+    servlet:
+        multipart:
+          max-file-size: 20MB
+          max-request-size: 20MB
+
+    mail:
+        host:
+        port:
+        username:
+        password:
+        properties:
+          mail.smtp.auth:
+          mail.smtp.starttls.enable:
+
+file:
+    upload-dir: uploads
